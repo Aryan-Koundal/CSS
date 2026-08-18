@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(52, 115, 169);
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* #h101{
+        border-style:ridge;
+    border-width :1px;
+    border-color: aqua;
+    border-radius:1px;
+} */
+ #h101{
+    border:1px ridge aqua;
+    border: radius 1px;;
+ }
+h4{
+    color: aliceblue;
+    border-bottom: 3px solid red;
+}
+#hell101{
+    color:rgb(137, 14, 14);
+    font-family:"Lucida console","courier new";
+    font-style: italic;
+    font-weight:bold;
+    font-size:lem;
+    border-style:groove;
+
+}
+#hell102{
+    color: rgb(20, 39, 137);
+    border-style:groove;
+}
+#hell103{
+    color: rgb(101, 18, 121);
+    border-style:groove;
+}
+#hell104{
+    color: rgb(96, 75, 12);
+    border-style:groove;
+}
+#hell105{
+    color: rgb(160, 33, 99);
+    border-style:groove;
+}

@@ -1,9 +1,21 @@
 body{
     background-color: black;
+    background-image:url(backgroundimg.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 h1{
     color: rgb(52, 115, 169);
     font-family:Arial, Helvetica, sans-serif;
+}
+#image1{
+    float:left;
+    margin-right:10px;
+}
+#p1{
+    color: brown;
 }
 /* #h101{
         border-style:ridge;
@@ -13,11 +25,24 @@ h1{
 } */
  #h101{
     border:1px ridge aqua;
-    border: radius 1px;;
+    border: radius 1px;
  }
+#nothing1{
+    border-bottom: 0px;
+}
+#nothing1::first-letter{
+    font-size: 2em;
+}
+#p2{
+    color: bisque;
+    border: 2px solid;
+    height:75px;
+    overflow:auto;
+}
 h4{
     color: aliceblue;
     border-bottom: 3px solid red;
+    text-shadow:1px 1px 5px rgb(105, 4, 228),-1px -1px 5px rgb(4, 236, 4) ;
 }
 #hell101{
     color:rgb(137, 14, 14);
@@ -31,6 +56,9 @@ h4{
 #hell102{
     color: rgb(20, 39, 137);
     border-style:groove;
+    /* display: inline-block;
+    height: 1110px;
+    width: 1110px; */
 }
 #hell103{
     color: rgb(101, 18, 121);
@@ -43,4 +71,58 @@ h4{
 #hell105{
     color: rgb(160, 33, 99);
     border-style:groove;
+}
+.d1{
+    color:aliceblue;
+    border: 2px solid;
+    padding:2px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    height: auto;
+    line-height: 1;
+    p{
+        margin: 0;
+    }
+    position:static;
+    top: 100px;
+}
+#container{
+    color: blue;
+    border:2px solid;
+    > p{
+        color: tomato;
+        background-color: yellow;
+    }
+    ~ p{
+        color: rgb(255, 0, 162);
+        background-color: rgb(4, 242, 40);
+    }
+}
+#list1{
+    color: aliceblue;
+}
+#Apple::before{
+    content:"✅";
+}
+#Orange::before{
+    content:"✅";
+}
+#Banana::before{
+    content:"✅";
+}
+#link1{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    font-weight:bold;
+    
+}
+#link1:hover{
+    color: antiquewhite;
+    font: size 1.1em;;
+}
+#link1:active{
+    color: brown;
+    font-size: 1.1em;
 }
